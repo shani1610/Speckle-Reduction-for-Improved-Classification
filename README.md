@@ -2,7 +2,7 @@
 
 ![](https://s6.gifyu.com/images/Animation-of-the-image-processing.gif)
 
-Students: [Inbal Aharoni](mailto:AHARONINBAL@gmail.com),  [Shani Israelov](mailto:shani1610@gmail.com), Supervised by: [Shira Nemirovsky-Rotman](mailto:)
+Students: [Inbal Aharoni](mailto:AHARONINBAL@gmail.com),  [Shani Israelov](mailto:shani1610@gmail.com), Supervised by: [Shira Nemirovsky-Rotman](mailto:nshira@campus.technion.ac.il)
 
 August 2020, VISL lab, Electrical Engineering department, Technion
 
@@ -44,12 +44,12 @@ to run the code you need to run the Test.m file.  make sure the that specified i
 ## Acknowledgments
 
 SpeckleRemovalOBNLM borrows heavily from: 
- *  P. Coupe, P. Yger, S. Prima, P. Hellier, C. Kervrann, C. Barillot.     *
- *  An Optimized Blockwise Non Local Means Denoising Filter for 3D Magnetic*
- *  Resonance Images. IEEE Transactions on Medical Imaging, 27(4):425-441, *
- *  Avril 2008                                                             *
+ *  P. Coupe, P. Yger, S. Prima, P. Hellier, C. Kervrann, C. Barillot.     
+ *  An Optimized Blockwise Non Local Means Denoising Filter for 3D Magnetic
+ *  Resonance Images. IEEE Transactions on Medical Imaging, 27(4):425-441, 
+ *  Avril 2008                                                             
 
 My_MerticsMeasurment borrows heavily from:
-* ASHISH MESHRAM (meetashish85@gmail.com; www.facebook.com/ashishmeet)     *
+* ASHISH MESHRAM (meetashish85@gmail.com; www.facebook.com/ashishmeet)     
 
 We thank the creators. 
