@@ -1,6 +1,9 @@
 # Effect of despeckle filtering on classification of breast ultrasound images
 
+![](https://s6.gifyu.com/images/Animation-of-the-image-processing.gif)
+
 Students: [Inbal Aharoni](mailto:AHARONINBAL@gmail.com),  [Shani Israelov](mailto:shani1610@gmail.com), Supervised by: [Shira Nemirovsky-Rotman](mailto:)
+
 August 2020, VISL lab, Electrical Engineering department, Technion
 
 ## Indroduction
@@ -19,19 +22,34 @@ the images are given in a folder.
 to run the code you need to run the Test.m file.  make sure the that specified in the Test file is included in the folder. 
 
 ## whats included? 
-1.	Test
-2.	ImageDescription
-3.	WaveletDecomposition - our implementation to decomposition, up to 3 levels. 
-4. SpeckleRemovalOBNLM - Bayesian NLM filter made by:
-  %     %  *  P. Coupe, P. Yger, S. Prima, P. Hellier, C. Kervrann, C. Barillot.     *
-  %     %  *  An Optimized Blockwise Non Local Means Denoising Filter for 3D Magnetic*
-  %     %  *  Resonance Images. IEEE Transactions on Medical Imaging, 27(4):425-441, *
-  %     %  *  Avril 2008        
-  %  
-5. 	QuantitativeValues:
-  % *	FeatureExtraction - returns a sturct that includes morphogical and texturical features
-  % *	EdgePreservationIndex
-  % *	SpeckleIndex
-  % *	My_MerticsMeasurment - MSE, PSNR calculation made by:     
-  %     %  *  ASHISH MESHRAM (meetashish85@gmail.com; www.facebook.com/ashishmeet)       
 
+1.	Test
+
+2.	ImageDescription
+
+3.	WaveletDecomposition - our implementation to decomposition, up to 3 levels. 
+
+4. SpeckleRemovalOBNLM - Bayesian NLM filter
+
+5. 	QuantitativeValues:
+
+* FeatureExtraction - returns a sturct that includes morphogical and texturical features
+
+* EdgePreservationIndex
+
+* SpeckleIndex
+
+* My_MerticsMeasurment - MSE, PSNR calculation 
+
+## Acknowledgments
+
+SpeckleRemovalOBNLM borrows heavily from: 
+ *  P. Coupe, P. Yger, S. Prima, P. Hellier, C. Kervrann, C. Barillot.     *
+ *  An Optimized Blockwise Non Local Means Denoising Filter for 3D Magnetic*
+ *  Resonance Images. IEEE Transactions on Medical Imaging, 27(4):425-441, *
+ *  Avril 2008                                                             *
+
+My_MerticsMeasurment borrows heavily from:
+* ASHISH MESHRAM (meetashish85@gmail.com; www.facebook.com/ashishmeet)     *
+
+We thank the creators. 
